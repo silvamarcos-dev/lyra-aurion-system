@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://lyra-backend-zvsg.onrender.com",
+  baseURL: "http://192.168.0.146:8000",
 });
 
 api.interceptors.request.use((config) => {
