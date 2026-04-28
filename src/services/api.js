@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://agricultural-promotional-adopt-judy.trycloudflare.com/",
+  baseURL: "https://agricultural-promotional-adopt-judy.trycloudflare.com",
 });
 
 api.interceptors.request.use((config) => {
