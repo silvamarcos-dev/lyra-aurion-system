@@ -13,5 +13,5 @@ export async function createCalendarEvent(summary, minutesFromNow = 30, duration
 }
 
 export function connectGoogleCalendar() {
-  window.location.href = "http://localhost:8000/calendar/connect";
+  window.location.href = "https://response-induction-hindu-procedures.trycloudflare.com/calendar/connect";
 }
