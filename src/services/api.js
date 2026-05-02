@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://christ-hundreds-achieved-pose.trycloudflare.com",
+  baseURL: "https://response-induction-hindu-procedures.trycloudflare.com",
 });
 
 api.interceptors.request.use((config) => {
