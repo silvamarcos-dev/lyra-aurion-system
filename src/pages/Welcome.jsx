@@ -158,7 +158,7 @@ export default function Welcome() {
   }
 
   function handleConnectGoogle() {
-    window.location.href = "http://localhost:8000/calendar/connect";
+    window.location.href = "https://response-induction-hindu-procedures.trycloudflare.com/calendar/connect";
   }
 
   return (
